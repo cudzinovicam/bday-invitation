@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Gwendolyn';
+    color: #DDD2A5;
+    background-color: #000;
+}
+
+a {
+    font-family: 'Gwendolyn';
+    color: #DDD2A5;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul { 
+    display: inline-block; 
+}
+
+.border {
+    display: flex;
+    height: 186px;
+    width: 300px;
+    background-image: url(./golden_border.png);
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
