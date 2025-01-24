@@ -8,6 +8,45 @@ html, body {
     height: 100%;
 }
 
+main {
+    position: relative;
+    top: 5px;
+    margin: 5px;
+}
+
+div {
+    padding: 5px;
+}
+
+h1, h2, p {
+    text-shadow: #6C4C12 0 7px 4px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+img {
+    border: solid 2px #DDD2A5;
+    padding: 10px;
+    display: block;
+    margin: 5px auto;
+}
+
+div {
+    text-align: center;
+}
+
 body {
     font-family: 'Gwendolyn';
     color: #DDD2A5;
@@ -24,9 +63,14 @@ a {
 
 ul { 
     display: inline-block; 
+    margin: 0px 20px;
 }
 
-.border {
+#border {
+    margin: auto;
+}
+
+#image-border {
     display: flex;
     height: 186px;
     width: 300px;
@@ -34,4 +78,5 @@ ul {
     background-size: contain;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
